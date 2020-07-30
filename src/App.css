@@ -1,0 +1,62 @@
+.App {
+  padding-top: 15vh;
+  /*margin:0;
+	padding:0;*/
+}
+
+.navbar {
+  height: 10vh;
+  position: fixed;
+}
+
+.cart {
+  color: white;
+  transition: all 2s;
+  
+  
+}
+
+.cart:hover{
+  color: yellow;
+  transition: all 2s;
+}
+
+.carrinho {
+  background-color: blue;
+  height: 90vh;
+  z-index: 10;
+  position: fixed;
+  width: 35vw;
+  bottom: 0vh;
+  right: 0;
+  transition: all 0.5s ease;
+  overflow:hidden;
+  transform: translate(35vw, 0);
+  
+}
+
+.item {
+  border: 1px black solid;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.pokemon-name{
+  text-transform: capitalize;
+}
+
+.item > button {
+  border-radius: 50px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.row {
+  text-align: center;
+}
+
+.button{
+  stroke: none;
+}
